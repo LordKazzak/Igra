@@ -1,0 +1,123 @@
+﻿<bela>
+  <Peasant>
+    <price>3</price>
+    <text>Preprosti vojak opremljen s čimer je pač našel. Od njega ni smiselno pričakovati veliko.</text>
+    <movement>3</movement>
+    <attack>1</attack>
+    <HP>2</HP>
+    <armor>0</armor>
+    <range>1</range>
+    <type>1</type>
+    <image>bela1.png</image>
+  </Peasant>
+  <Peasant_archer>
+    <price>4</price>
+    <text>Opremljen le s preprostim lokom bo v boju s sovražnikom padel zelo hitro.</text>
+    <movement>3</movement>
+    <attack>1</attack>
+    <HP>1</HP>
+    <armor>0</armor>
+    <range>2</range>
+    <type>2</type>
+    <image>bela2.png</image>
+  </Peasant_archer>
+  <Peasant_cavalry>
+    <price>6</price>
+    <text>Kmet, ki je s seboj prinesel konja. Zaradi pomanjkanja taščite se movementa hitro, vendar bo hitro tudi padel.</text>
+    <movement>4</movement>
+    <attack>2</attack>
+    <HP>1</HP>
+    <armor>0</armor>
+    <range>1</range>
+    <type>3</type>
+    <image>bela3.png</image>
+  </Peasant_cavalry>
+  <Light_infantry>
+    <price>9</price>
+    <text>Bolje opremljeni kot kmetje, vendar proti težkim enotam ne bodo preživeli dolgo.</text>
+    <movement>3</movement>
+    <attack>2</attack>
+    <HP>2</HP>
+    <armor>1</armor>
+    <range>1</range>
+    <type>1</type>
+    <image>bela4.png</image>
+  </Light_infantry>
+  <Light_archer>
+    <price>8</price>
+    <text>Lahki lokostrelci so mojstri v boju na daljavo, a v boju na blizu ne bodo preživeli dolgo.</text>
+    <movement>3</movement>
+    <attack>2</attack>
+    <HP>1</HP>
+    <armor>0</armor>
+    <range>3</range>
+    <type>2</type>
+    <image>bela5.png</image>
+  </Light_archer>
+  <Light_cavalry>
+    <price>9</price>
+    <text>Lahka konjenica se po hitrosti kosa z kmečko, je pa tudi malo bolj vzdržljiva.</text>
+    <movement>4</movement>
+    <attack>3</attack>
+    <HP>2</HP>
+    <armor>0</armor>
+    <range>1</range>
+    <type>3</type>
+    <image>bela6.png</image>
+  </Light_cavalry>
+  <Heavy_infantry>
+    <price>11</price>
+    <text>Težka pehota je sestavljena iz najmočnejših bojevnikov. Od njih se pričakuje, da bodo držali nasprotnika v šahu in pustili lokostrelcem opraviti svoje delo.</text>
+    <movement>2</movement>
+    <attack>2</attack>
+    <HP>4</HP>
+    <armor>2</armor>
+    <range>1</range>
+    <type>1</type>
+    <image>bela7.png</image>
+  </Heavy_infantry>
+  <Heavy_archer>
+    <price>15</price>
+    <text>Ti lokostrelci so najboljši med najboljšimi. Njihove puščice sejejo grozo kjerkoli pristanejo. Kljub temu, da imajo nekaj treninga v boju na blizu, jih je najbolje držati stran od sovražnika.</text>
+    <movement>2</movement>
+    <attack>3</attack>
+    <HP>2</HP>
+    <armor>1</armor>
+    <range>4</range>
+    <type>2</type>
+    <image>bela8.png</image>
+  </Heavy_archer>
+  <Heavy_cavalry>
+    <price>15</price>
+    <text>Ti konjeniki so zaradi armora počasnejši od lahkih, a so tudi bolj smrtonosni, ko dosežejo nasprotnika.</text>
+    <movement>3</movement>
+    <attack>4</attack>
+    <HP>4</HP>
+    <armor>1</armor>
+    <range>1</range>
+    <type>3</type>
+    <image>bela9.png</image>
+  </Heavy_cavalry>
+  <Battering_ram>
+    <price>20</price>
+    <text>Ta oklopljen voz je odlično orožje proti nasprotnikovi trdnjavi. Drugih enot ne more attackati, tako da bo brez podpore kar hitro padel.</text>
+    <movement>2</movement>
+    <attack>10</attack>
+    <HP>5</HP>
+    <armor>2</armor>
+    <range>1</range>
+    <type>4</type>
+    <image>bela10.png</image>
+  </Battering_ram>
+  <Catapult>
+    <price>24</price>
+    <text>Katapulti so odlično orožje proti trdnjavam, drugih enot pa ne morejo attackati, saj so njihovi izstrelki preveč nenatančni in bi lahko pokončali zavezniške enote.</text>
+    <movement>2</movement>
+    <attack>10</attack>
+    <HP>3</HP>
+    <armor>1</armor>
+    <range>5</range>
+    <type>4</type>
+    <image>bela11.png</image>
+  </Catapult>
+</bela>

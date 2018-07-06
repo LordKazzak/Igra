@@ -9,9 +9,9 @@ namespace Igra
     {
         public const int N = 8; //velikost igralnega polja
         public const int stAt = 9; //število atributov enot
-        public const string baza = "Trdnjava";
+        public const string baza = "Fortress";
         public const int font_size = 12;
         static public bool koncaj = false;
-        public const int oklepTrd = 3;
+        public const int armorFort = 3;
     }
 }

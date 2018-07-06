@@ -6,7 +6,7 @@ using System.Drawing;
 
 namespace Igra
 {
-    class Karta
+    class Unit
     {
         public int rasa;
         public string ime;
@@ -23,10 +23,10 @@ namespace Igra
         public Image slika;
         public Point lokacija; //zgornji levi kot
 
-        public Karta() //toliko, da je deklarirana
+        public Unit() //toliko, da je deklarirana
         { }
 
-        public Karta(int Rasa, string Ime, int Cena, string Text, int Premik, int Napad, int Zivljenje, int Oklep, int RazdaljaNapada, int Tip, Image Slika, Point Lokacija)
+        public Unit(int Rasa, string Ime, int Cena, string Text, int Premik, int Napad, int Zivljenje, int Oklep, int RazdaljaNapada, int Tip, Image Slika, Point Lokacija)
         {
             rasa = Rasa;
             ime = Ime;
@@ -59,7 +59,7 @@ namespace Igra
             lokacija = new Point(karta.lokacija.X, karta.lokacija.Y);
         }*/
 
-        public Karta(Point Lokacija) //za barvanje premikov in podobno
+        public Unit(Point Lokacija) //za barvanje premikov in podobno
         {
             lokacija = new Point(Lokacija.X, Lokacija.Y);
         }

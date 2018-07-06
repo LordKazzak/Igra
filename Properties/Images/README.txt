@@ -1,0 +1,1 @@
+Unit textures are saved in this folder. Feel free to replace them, but make sure the names stay the same.
